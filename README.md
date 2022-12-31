@@ -6,6 +6,19 @@ A GUI-based Numerical and Regular Tic-Tac-Toe game that I programmed for CIS*243
 
 I programmed this GUI application keeping CIS*2430 OOP principles in mind. In this assignment, I applied my knowledge of encapuslation, cohesion/coupling and polymorphism. Most notably, my skills with regards to interfaces and inheritence allowed me to implement Professor McCuaig's saveable interface as well as extending other classes. With regard to my program, it is a GUI-based application that allows the user to play two different games: Numerical Tic-Tac-Toe and Regular Tic-Tac-Toe. It has an easy-to-use user experience, as well as a robust UI that allows for invalid input. Additionally, it allows to save player info and current games in progress, with the ability to load those files later.
 
+## Images
+#### *Game Start Page*
+![Screenshot_20221231_023833](https://user-images.githubusercontent.com/89956249/210154224-10a61409-a026-43ae-9a43-14062010ec37.png)
+
+#### *Winner in Numerical Tic-Tac-Toe game, prompt to start new game.*
+![Screenshot_20221231_023912](https://user-images.githubusercontent.com/89956249/210154222-3337d6a5-9c21-4e8d-9515-fcf89a089aa5.png)
+
+#### *Ability to load/save player statistics as well as existing games.*
+![Screenshot_20221231_023933](https://user-images.githubusercontent.com/89956249/210154223-337c597c-8e36-4926-85c0-7eb5d88ecdd8.png)
+
+#### *Regular Tic-Tac-Toe game example.*
+![Screenshot_20221231_023942](https://user-images.githubusercontent.com/89956249/210154225-1e8d98de-fdb5-4767-ae38-83926cd4bb56.png)
+
 ## Getting Started
 
 ### Dependencies
@@ -48,10 +61,6 @@ Player Two,5,5,11
 The first part is the player name. The second portion is the wins, losses, and games played (in order) listed as integers. Note that the games played can be more than the total wins and losses combined because there is a possibility that no one wins a game.
 
 The player information is stored in a CSV file.
-
-## Limitations
-
-While I believe that my player saving/loading methods are robust, I believe that more additions could be added to the Player class (if given more time). Currently, the capabilities of the player class are rather limited. I would also love to make it so that my program doesn't store game data only in the "assets" folder, and could store it anywhere on my local computer. Lastly, I would've enjoyed adding more unique graphical elements to the program to make the GUI more visually appealing.
 
 ## Author Information
 
@@ -133,6 +142,5 @@ isincl01@uoguelph.ca
 * Copied and refactored code with regard to Professor McCuaig's example game (Kakuro).
     * specifically, I copied the button grid function that was used in the Kakuro game.
 * I also copied and refactored the SaveToFile class from one of Professor McCuaig's polymorphism workshops.
-* I also copied and refactored parts of my A1 to implement the Tic-Tac-Toe game.
 * [awesome-readme](https://github.com/matiassingers/awesome-readme)
 * [simple-readme] (https://gist.githubusercontent.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc/raw/d59043abbb123089ad6602aba571121b71d91d7f/README-Template.md)
