@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+    id 'checkstyle'
+}
+
+sourceCompatibility = 1.11
+targetCompatibility = 1.11
+
+repositories {
+    mavenCentral()
+}
+jar {
+    manifest { // change ui as needed
+        attributes 'Main-Class': 'boardgame.GameUI'
+    }
+}
+
+
+//change the name of the class that is run on line 16 to match your own code
+task run;
+run.doFirst {
+    println "To run the program:\njava -jar build/libs/{folder name}.jar"
+    println "To run the program with TextUI:\njava -cp build/classes/java/main boardgame.ui.TextUI"
+
+    println "Folder name should be the folder that holds the entire program, with all the sub-folders (e.g. src, assets, etc.)."
+}
+dependencies {
+    testImplementation('junit:junit:4.13')
+}
