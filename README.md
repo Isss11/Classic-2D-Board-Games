@@ -4,7 +4,7 @@ A GUI-based Numerical and Regular Tic-Tac-Toe game that I programmed for CIS*243
 
 ## Description
 
-I programmed this GUI application keeping CIS*2430 OOP principles in mind. In this assignment, I applied my knowledge of encapuslation, cohesion/coupling and polymorphism. Most notably, my skills with regards to interfaces and inheritence allowed me to implement Professor McCuaig's saveable interface as well as extending other classes. With regard to my program, it is a GUI-based application that allows the user to play two different games: Numerical Tic-Tac-Toe and Regular Tic-Tac-Toe. It has an easy-to-use user experience, as well as a robust UI that allows for invalid input. Additionally, it allows to save player info and current games in progress, with the ability to load those files later.
+I programmed this GUI application keeping CIS*2430 OOP principles in mind. In this assignment, I applied my knowledge of encapsulation, cohesion/coupling and polymorphism. Most notably, my skills with regards to interfaces and inheritance allowed me to implement Professor McCuaig's saveable interface as well as extending other classes. With regard to my program, it is a GUI-based application that allows the user to play two different games: Numerical Tic-Tac-Toe and Regular Tic-Tac-Toe. It has an easy-to-use user experience, as well as a robust UI that allows for invalid input. Additionally, it allows to save player info and current games in progress, with the ability to load those files later.
 
 ## Images
 #### *Game Start Page*
